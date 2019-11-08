@@ -1,0 +1,100 @@
+Min heap:
+	Average insert time: 592 nanoseconds.
+	Preorder traversal:
+		ADMIRAL ACKBAR, ANAKIN, BAIL ORGANA, BRAVO THREE, C-3PO, OBI-WAN, RED LEADER, VALORUM, JIRA, WALD, OWEN, DOFINE, LAMA SU, WEDGE, TARPALS, GREEDO, WATTO, PK-4, CAPTAIN PANAKA, CLIEGG, COUNT DOOKU, LEIA, SENATOR ASK AAK, GOLD FIVE, JOBAL, ORN FREE TAA, HAN, POGGLE, RED TEN, SOLA, PLO KOON, SUN RIT, SIO BIBBLE, BIB FORTUNA, CAMIE, FANG ZAR, MACE WINDU, PADME, TION MEDON, JABBA, ON MEDON, MAD MADDA, CAPTAIN ANTILLES, MOTTI, TAUN WE, NUTE GUNRAY, DODONNA, RIEEKAN, GIDDEAN DANU, BIGGS, BRAVO TWO, DERLIN, QUI-GON, OZZEL, DARTH VADER, ZEV, NEEDA, BOUSHH, CAPTAIN TYPHO, JERJERROD, GOLD LEADER, DARTH MAUL, RABE, REY, ADMIRAL STATURA, BALA-TIK, COLONEL DATOO, GENERAL GRIEVOUS, POE, R2-D2, SNAP, GENERAL HUX, JANGO FETT, SNOKE, ELLO ASTY, GENERAL CEEL, TARKIN, KYLO REN, EMPEROR, TEY HOW, JESS, BERU, CLONE COMMANDER CODY, NIV LEK, YODA, YOLO ZIFF, FINN, TC-14, KITSTER, BOSS NASS, FODE/BEED, RUWEE, MAZ, CAPTAIN PHASMA, PIETT, LIEUTENANT MITAKA, BB-8, BOBA FETT, CLONE COMMANDER GREE, LOR SAN TEKKA, UNKAR PLUTT, RIC OLIE, KI-ADI-MUNDI, LUKE, MON MOTHMA, SHMI, ODD BALL, CHEWBACCA, DACK, RUNE, JAR JAR, JANSON, LANDO, SEBULBA, 
+	Min: ADMIRAL ACKBAR Max: ZEV
+	Searching for "LUKE" ...
+		Found at index 113.
+		Depth: 6.
+		Leaf node.
+		Subtree size: 1.
+		Time to find: 178331 nanoseconds.
+	Searching for "OBI-WAN" ...
+		Found at index 31.
+		Depth: 5.
+		Subtree size: 3.
+		Time to find: 66286 nanoseconds.
+	Searching for "C-3PO" ...
+		Found at index 15.
+		Depth: 4.
+		Subtree size: 7.
+		Time to find: 54740 nanoseconds.
+	Searching for "R2-D2" ...
+		Found at index 95.
+		Depth: 6.
+		Leaf node.
+		Subtree size: 1.
+		Time to find: 66714 nanoseconds.
+	Max value search time: 17533 nanoseconds.
+	Min search time: 0 nanoseconds.
+	Average search time: 91517 nanoseconds.
+
+Max heap:
+	Average insert time: 5439 nanoseconds.
+	Postorder traversal:
+		ANAKIN, JANGO FETT, JIRA, FANG ZAR, HAN, OWEN, POE, CLIEGG, GENERAL GRIEVOUS, JABBA, CLONE COMMANDER GREE, DERLIN, NIV LEK, TC-14, COUNT DOOKU, COLONEL DATOO, DOFINE, EMPEROR, GIDDEAN DANU, PADME, CAPTAIN TYPHO, CAPTAIN PHASMA, MACE WINDU, BERU, JERJERROD, POGGLE, RED LEADER, UNKAR PLUTT, BAIL ORGANA, GENERAL HUX, OBI-WAN, GENERAL CEEL, BB-8, ON MEDON, RUNE, JOBAL, FINN, LUKE, NEEDA, ODD BALL, RIC OLIE, TAUN WE, BIGGS, JESS, PK-4, CAMIE, PIETT, RED TEN, DARTH MAUL, BALA-TIK, JAR JAR, JANSON, RABE, RUWEE, SUN RIT, WALD, WATTO, ADMIRAL ACKBAR, C-3PO, SNAP, BOSS NASS, LOR SAN TEKKA, R2-D2, TION MEDON, MAD MADDA, QUI-GON, SENATOR ASK AAK, KI-ADI-MUNDI, OZZEL, VALORUM, WEDGE, DARTH VADER, KITSTER, KYLO REN, GOLD FIVE, MOTTI, TARKIN, NUTE GUNRAY, MAZ, SHMI, BOUSHH, DACK, SOLA, TARPALS, YODA, BRAVO THREE, CAPTAIN PANAKA, RIEEKAN, CAPTAIN ANTILLES, FODE/BEED, SIO BIBBLE, CHEWBACCA, ADMIRAL STATURA, MON MOTHMA, BIB FORTUNA, LAMA SU, ORN FREE TAA, SNOKE, GOLD LEADER, ELLO ASTY, GREEDO, CLONE COMMANDER CODY, DODONNA, LANDO, BOBA FETT, LEIA, LIEUTENANT MITAKA, BRAVO TWO, PLO KOON, REY, SEBULBA, TEY HOW, YOLO ZIFF, ZEV, 
+	Min: ADMIRAL ACKBAR Max: ZEV
+	Searching for "LUKE" ...
+		Found.
+		Depth: 5.
+		Subtree size: 3.
+		Time to find: 63293 nanoseconds.
+	Searching for "OBI-WAN" ...
+		Found.
+		Depth: 5.
+		Subtree size: 3.
+		Time to find: 48325 nanoseconds.
+	Searching for "C-3PO" ...
+		Found.
+		Depth: 6.
+		Leaf node.
+		Subtree size: 1.
+		Time to find: 51746 nanoseconds.
+	Searching for "R2-D2" ...
+		Found.
+		Depth: 5.
+		Subtree size: 3.
+		Time to find: 44475 nanoseconds.
+	Max value search time: 0 nanoseconds.
+	Min search time: 428 nanoseconds.
+	Average search time: 37419 nanoseconds.
+
+Binary search tree:
+	Average insert time: 1392 nanoseconds.
+	Inorder traversal:
+		ADMIRAL ACKBAR, ADMIRAL STATURA, ANAKIN, BAIL ORGANA, BALA-TIK, BB-8, BERU, BIB FORTUNA, BIGGS, BOBA FETT, BOSS NASS, BOUSHH, BRAVO THREE, BRAVO TWO, C-3PO, CAMIE, CAPTAIN ANTILLES, CAPTAIN PANAKA, CAPTAIN PHASMA, CAPTAIN TYPHO, CHEWBACCA, CLIEGG, CLONE COMMANDER CODY, CLONE COMMANDER GREE, COLONEL DATOO, COUNT DOOKU, DACK, DARTH MAUL, DARTH VADER, DERLIN, DODONNA, DOFINE, ELLO ASTY, EMPEROR, FANG ZAR, FINN, FODE/BEED, GENERAL CEEL, GENERAL GRIEVOUS, GENERAL HUX, GIDDEAN DANU, GOLD FIVE, GOLD LEADER, GREEDO, HAN, JABBA, JANGO FETT, JANSON, JAR JAR, JERJERROD, JESS, JIRA, JOBAL, KI-ADI-MUNDI, KITSTER, KYLO REN, LAMA SU, LANDO, LEIA, LIEUTENANT MITAKA, LOR SAN TEKKA, LUKE, MACE WINDU, MAD MADDA, MAZ, MON MOTHMA, MOTTI, NEEDA, NIV LEK, NUTE GUNRAY, OBI-WAN, ODD BALL, ON MEDON, ORN FREE TAA, OWEN, OZZEL, PADME, PIETT, PK-4, PLO KOON, POE, POGGLE, QUI-GON, R2-D2, RABE, RED LEADER, RED TEN, REY, RIC OLIE, RIEEKAN, RUNE, RUWEE, SEBULBA, SENATOR ASK AAK, SHMI, SIO BIBBLE, SNAP, SNOKE, SOLA, SUN RIT, TARKIN, TARPALS, TAUN WE, TC-14, TEY HOW, TION MEDON, UNKAR PLUTT, VALORUM, WALD, WATTO, WEDGE, YODA, YOLO ZIFF, ZEV, 
+	Min: ADMIRAL ACKBAR Max: ZEV
+	Searching for "LUKE" ...
+		Found.
+		Depth: 2.
+		Subtree size: 85.
+		Time to find: 122309 nanoseconds.
+	Searching for "OBI-WAN" ...
+		Found.
+		Depth: 3.
+		Subtree size: 52.
+		Time to find: 114611 nanoseconds.
+	Searching for "C-3PO" ...
+		Found.
+		Depth: 2.
+		Subtree size: 25.
+		Time to find: 36351 nanoseconds.
+	Searching for "R2-D2" ...
+		Found.
+		Depth: 4.
+		Subtree size: 43.
+		Time to find: 38916 nanoseconds.
+	Max value search time: 0 nanoseconds.
+	Min search time: 0 nanoseconds.
+	Average search time: 29133 nanoseconds.
+
+Size of n: 482
+
+Time to create and sort 482 min heaps, max heaps, and BSTs, each with 482 names:
+	112717990 nanoseconds (0.11271799 seconds)
+Min heap average insert time with 482 names in each:
+	131 nanoseconds.
+Max heap average insert time with 482 names in each:
+	62 nanoseconds.
+BST average insert time with 482 names in each:
+	130 nanoseconds.
