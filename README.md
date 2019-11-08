@@ -1,4 +1,6 @@
 # Project-Portfolio
-CS 3310 - Java
+CS 2230 - C Programming
 
-CS 4310 - Java
+CS 3310 - Java Programming
+
+CS 4310 - Java Programming
