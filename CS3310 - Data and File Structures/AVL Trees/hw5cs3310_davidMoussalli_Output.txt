@@ -1,0 +1,220 @@
+=============== Part A ==============
+
+======= Depth-first: =======
+	Sorted by serial_number:
+		MJ0351YNG9WJSA - height: 0
+		MJ0351YNG9Z0XA - height: 2
+		MJ0351YNGABYAA - height: 0
+		MJ1311YNG7ESHA - height: 1
+		PL1311LAG3A84H - height: 0
+		PL1321LAG34XWH - height: 4
+		PL1331LAGSNKMH - height: 0
+		PL2331LAGN2YTJ - height: 1
+		PL2331LAGN3UVJ - height: 2
+		PL2331LAHDUVVJ - height: 0
+		WD-WMC4N2899475 - height: 3
+		WD-WX61A35NJXKT - height: 1
+		Z300CMV1 - height: 0
+		Z305B2QN - height: 2
+		ZA10JDYK - height: 0
+
+
+	Sorted by model:
+		HGST HMS5C4040ALE640 - height: 0
+		HGST HMS5C4040BLE640 - height: 1
+		HGST HMS5C4040BLE640 - height: 2
+		HGST HMS5C4040BLE640 - height: 0
+		Hitachi HDS5C3030ALA630 - height: 1
+		Hitachi HDS5C3030ALA630 - height: 4
+		Hitachi HDS5C3030ALA630 - height: 1
+		Hitachi HDS5C3030ALA630 - height: 0
+		Hitachi HDS5C4040ALE630 - height: 3
+		Hitachi HDS5C4040ALE630 - height: 0
+		ST4000DM000 - height: 1
+		ST4000DM000 - height: 0
+		ST8000DM002 - height: 2
+		WDC WD30EFRX - height: 1
+		WDC WD5000LPVX - height: 0
+
+
+	Sorted by capacity_bytes:
+		500107862016 - height: 0
+		3000592982016 - height: 1
+		3000592982016 - height: 2
+		3000592982016 - height: 0
+		3000592982016 - height: 1
+		3000592982016 - height: 0
+		4000787030016 - height: 4
+		4000787030016 - height: 0
+		4000787030016 - height: 1
+		4000787030016 - height: 0
+		4000787030016 - height: 3
+		4000787030016 - height: 0
+		4000787030016 - height: 2
+		4000787030016 - height: 0
+		8001563222016 - height: 1
+
+
+	Sorted by power_on_hours:
+		5323 - height: 0
+		6105 - height: 1
+		7657 - height: 2
+		9195 - height: 0
+		20972 - height: 3
+		21540 - height: 0
+		22763 - height: 1
+		23221 - height: 2
+		29077 - height: 0
+		32877 - height: 1
+		33373 - height: 4
+		35424 - height: 0
+		36714 - height: 2
+		36780 - height: 1
+		41403 - height: 0
+
+
+======= Breadth-first: =======
+	Sorted by serial_number:
+		PL1321LAG34XWH - height: 4
+		MJ0351YNG9Z0XA - height: 2
+		WD-WMC4N2899475 - height: 3
+		MJ0351YNG9WJSA - height: 0
+		MJ1311YNG7ESHA - height: 1
+		PL2331LAGN3UVJ - height: 2
+		Z305B2QN - height: 2
+		MJ0351YNGABYAA - height: 0
+		PL1311LAG3A84H - height: 0
+		PL2331LAGN2YTJ - height: 1
+		PL2331LAHDUVVJ - height: 0
+		WD-WX61A35NJXKT - height: 1
+		ZA10JDYK - height: 0
+		PL1331LAGSNKMH - height: 0
+		Z300CMV1 - height: 0
+
+
+	Sorted by model:
+		Hitachi HDS5C3030ALA630 - height: 4
+		HGST HMS5C4040BLE640 - height: 2
+		Hitachi HDS5C4040ALE630 - height: 3
+		HGST HMS5C4040BLE640 - height: 1
+		Hitachi HDS5C3030ALA630 - height: 1
+		Hitachi HDS5C3030ALA630 - height: 1
+		ST8000DM002 - height: 2
+		HGST HMS5C4040ALE640 - height: 0
+		HGST HMS5C4040BLE640 - height: 0
+		Hitachi HDS5C3030ALA630 - height: 0
+		ST4000DM000 - height: 1
+		WDC WD30EFRX - height: 1
+		Hitachi HDS5C4040ALE630 - height: 0
+		ST4000DM000 - height: 0
+		WDC WD5000LPVX - height: 0
+
+
+	Sorted by capacity_bytes:
+		4000787030016 - height: 4
+		3000592982016 - height: 2
+		4000787030016 - height: 3
+		3000592982016 - height: 1
+		3000592982016 - height: 1
+		4000787030016 - height: 1
+		4000787030016 - height: 2
+		500107862016 - height: 0
+		3000592982016 - height: 0
+		3000592982016 - height: 0
+		4000787030016 - height: 0
+		4000787030016 - height: 0
+		4000787030016 - height: 0
+		8001563222016 - height: 1
+		4000787030016 - height: 0
+
+
+	Sorted by power_on_hours:
+		33373 - height: 4
+		20972 - height: 3
+		36714 - height: 2
+		7657 - height: 2
+		23221 - height: 2
+		35424 - height: 0
+		36780 - height: 1
+		6105 - height: 1
+		9195 - height: 0
+		22763 - height: 1
+		32877 - height: 1
+		41403 - height: 0
+		5323 - height: 0
+		21540 - height: 0
+		29077 - height: 0
+
+=============== Part B ==============
+Inserting 1000 items...
+
+	Average serial number insertion time:	1188 nanoseconds.
+	Average model insertion time:			1175 nanoseconds.
+	Average capacity insertion time:		6359 nanoseconds.
+	Average hours insertion time:			1599 nanoseconds.
+------------
+Searching for 10 items...
+
+1:	Found WD-WX61A35NJXKT with height: 6
+		Found WDC WD5000LPVX with height: 7
+		Found 500107862016 with height: 6
+		Found 7657 with height: 6
+
+2:	Found WD-WX61A35NJXKT with height: 6
+		Found WDC WD5000LPVX with height: 7
+		Found 500107862016 with height: 6
+		Found 7657 with height: 6
+
+3:	Found WD-WMC4N2899475 with height: 7
+		Found WDC WD30EFRX with height: 8
+		Found 3000592982016 with height: 9
+		Found 20972 with height: 7
+
+4:	Found MJ0351YNG9WJSA with height: 5
+		Found Hitachi HDS5C3030ALA630 with height: 9
+		Found 3000592982016 with height: 9
+		Found 36780 with height: 8
+
+5:	Found PL1331LAGSNKMH with height: 7
+		Found HGST HMS5C4040ALE640 with height: 6
+		Found 4000787030016 with height: 10
+		Found 21540 with height: 9
+
+6:	Found PL1331LAGSNKMH with height: 7
+		Found HGST HMS5C4040ALE640 with height: 6
+		Found 4000787030016 with height: 10
+		Found 21540 with height: 9
+
+7:	Found MJ0351YNG9WJSA with height: 5
+		Found Hitachi HDS5C3030ALA630 with height: 9
+		Found 3000592982016 with height: 9
+		Found 36780 with height: 8
+
+8:	Found MJ0351YNG9WJSA with height: 5
+		Found Hitachi HDS5C3030ALA630 with height: 9
+		Found 3000592982016 with height: 9
+		Found 36780 with height: 8
+
+9:	Found WD-WMC4N2899475 with height: 7
+		Found WDC WD30EFRX with height: 8
+		Found 3000592982016 with height: 9
+		Found 20972 with height: 7
+
+10:	Found PL1311LAG3A84H with height: 7
+		Found Hitachi HDS5C4040ALE630 with height: 10
+		Found 4000787030016 with height: 10
+		Found 32877 with height: 7
+
+------------
+	Average serial number search time:		19158 nanoseconds.
+	Average model search time:				21040 nanoseconds.
+	Average capacity search time:			42808 nanoseconds.
+	Average hours search time:				44817 nanoseconds.
+
+------------
+	Average serial number deletion time:	281 nanoseconds.
+	Average model deletion time:			152 nanoseconds.
+	Average capacity deletion time:			212 nanoseconds.
+	Average hours deletion time:			84 nanoseconds.
+
+Done.
