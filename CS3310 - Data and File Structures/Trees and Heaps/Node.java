@@ -2,11 +2,11 @@ package pack;
 
 public class Node {
 	Node lChild,	//Left child node
- 		 rChild,	//Right child node
- 		 parent;	//Parent node
+ 	     rChild,	//Right child node
+ 	     parent;	//Parent node
 	private int depth,		//Depth of node
-				height,		//Height of the tree
-				size;		//Size of tree
+		    height,		//Height of the tree
+		    size;		//Size of tree
 	private String name;	//Name stored in Node
 	
 	
@@ -29,7 +29,7 @@ public class Node {
 	public boolean isLeaf() {
 		return ((lChild == null) && (rChild == null));
 	}
-
+	
 	public void setHeight(int height) {
 		this.height = height;
 	}
