@@ -3,10 +3,10 @@ import java.io.*;
 import java.util.*;
 
 /**
- * Class: 		CS 3310 
+ * Class: 	CS 3310 
  * Assignment 	3
- * Date:		3/22/2018
- * @author 		David Moussalli
+ * Date:	3/22/2018
+ * @author 	David Moussalli
  * 
  * 
  * The purpose of this program is to teach us to understand how hash tables work and 
